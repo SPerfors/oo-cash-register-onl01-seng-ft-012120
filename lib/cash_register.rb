@@ -13,6 +13,6 @@ class CashRegister
     @purchases << title 
   end
     
-    
+  def apply_discount  
   
 end
