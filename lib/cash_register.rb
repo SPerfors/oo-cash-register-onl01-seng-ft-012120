@@ -26,7 +26,7 @@ class CashRegister
   end
   
   def items
-    returns @purchases 
+    @purchases 
   end
   
 end
