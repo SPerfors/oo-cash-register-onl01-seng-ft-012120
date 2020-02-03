@@ -25,4 +25,8 @@ class CashRegister
     end
   end
   
+  def items
+    returns @purchases 
+  end
+  
 end
