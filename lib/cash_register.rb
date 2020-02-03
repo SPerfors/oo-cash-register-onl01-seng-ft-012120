@@ -30,9 +30,6 @@ class CashRegister
   end
   
   def void_last_transaction
-    while @purchases.pop()
-      @total
-    end
     @total -= @total
   end
 end
